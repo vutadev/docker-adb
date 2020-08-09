@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM arm64v8/alpine:3.6
 
 # Set up insecure default key
 RUN mkdir -m 0750 /root/.android
